@@ -1,0 +1,38 @@
+package web.model;
+
+public class Cars {
+
+    private String name;
+    private int series;
+    private int price;
+
+    public Cars(String name, int series, int price) {
+        this.name = name;
+        this.series = series;
+        this.price = price;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getSeries() {
+        return series;
+    }
+
+    public void setSeries(int series) {
+        this.series = series;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+}
